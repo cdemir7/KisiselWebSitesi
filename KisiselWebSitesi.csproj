@@ -4,4 +4,18 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\web-Admin-Login\css\style.css" />
+    <None Include="wwwroot\web-Admin-Login\img\avatar.png" />
+    <None Include="wwwroot\web-Admin-Login\index.html" />
+    <None Include="wwwroot\web-KisiselWebSitesi\2268113003.jpg" />
+    <None Include="wwwroot\web-KisiselWebSitesi\Image.jpeg" />
+    <None Include="wwwroot\web-KisiselWebSitesi\index.html" />
+    <None Include="wwwroot\web-KisiselWebSitesi\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
 </Project>
